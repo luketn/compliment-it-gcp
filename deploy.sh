@@ -1,0 +1,1 @@
+gcloud functions deploy compliments-api --entry-point it.compliment.api.Compliments --runtime java11 --trigger-http --memory 512MB --allow-unauthenticated --project compliment-it-api --region australia-southeast1
